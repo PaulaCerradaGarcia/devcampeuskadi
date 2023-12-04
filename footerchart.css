@@ -1,0 +1,30 @@
+.footer{
+   display: flex;
+   width: 100%;
+   height: 15vh;
+   background-color: #3a3c42;
+   color: white;
+   font-size: 23px;
+   font-family: 'Telefon Black', sans-serif;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   border: 2px solid grey;
+   margin-top: auto;
+}
+
+.footer > .table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 150%;
+}
+
+.footer > .table th {
+    border: 2px solid grey;
+    border-top: none;
+    border-bottom: none;
+    border-right: 1000%;
+    border-left: none;
+    padding: 8px;
+}
+

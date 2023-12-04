@@ -1,0 +1,72 @@
+.middle-section{
+    background-color: #313339;
+    color: white;
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    padding: 100px;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle-section > .columns-wrapper{
+    width: 1155px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.main-text{
+    font-size: 33px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.sub-text{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.middle-section > .columns-wrapper > .column-two {
+    display: grid;
+    margin-top: -50px;
+    margin-left: 90px;
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.middle-section > .columns-wrapper > .main-text > .column-wrapper-btn >.column-btn {
+    margin-right: 15px;
+    font-size: 2em;
+}
+
+
+.column-two{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+.middle-section > .columns-wrapper > .column-two img {
+    width: 480px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+
+
+

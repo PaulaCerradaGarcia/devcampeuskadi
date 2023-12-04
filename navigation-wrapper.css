@@ -1,0 +1,128 @@
+/*common style*/
+body{
+    margin:0px;
+    font-family: 'Fira Code', monospace;
+}
+
+
+.navigation-wrapper {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;   
+}
+
+
+
+
+/*left column*/
+.navigation-wrapper > .left-column {
+    display: flex;
+    width: 20px;
+    
+}
+
+.navigation-wrapper > .left-column{
+    display: flex;
+    align-items: justify;
+}
+
+.navigation-wrapper > .left-column > .banner-image {
+    display: flex;
+    justify-content: left;
+    margin-right: 15px;
+
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 216px;
+    height: 100%;
+}
+
+/*center column*/
+
+.navigation-wrapper > .center-column{
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 500px;
+
+}
+
+.navigation-wrapper > .center-column > .explore {
+    display: flex;
+    justify-content: justify;
+    color: yellow;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper {
+    display: flex;
+    align-items: justify;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    width: 30px;
+    text-align: center;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+    font-family: 'Fira Code', monospace;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+
+/*right column*/
+.navigation-wrapper > .right-column {
+    display: flex; 
+    align-items:center;
+    font-family: 'Fira Code', monospace;
+    letter-spacing: 2px;
+}
+
+
+.navigation-wrapper > .right-column > .centered-btn-wrapper  > .icon {
+    margin-right: 15px;
+}
+
+.navigation-wrapper > .right-column > .icon i {
+    font-size: 2em;
+    color: #36e739;
+}
+
+.navigation-wrapper > .right-column > .search-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navigation-wrapper > .right-column > .search-icon i {
+    color: grey;
+    font-size: 1.5em;
+}
+ 
+
+
+.spacer60{
+    height: 60px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+

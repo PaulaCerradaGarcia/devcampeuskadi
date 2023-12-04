@@ -1,0 +1,66 @@
+.btn{
+    background-color: grey;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    padding: 15px 20px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+.btn-sparks{
+    background-color: black;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    padding: 1px 30px;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+}
+
+/*Centralizar el boton de sign up*/
+.centered-btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.column-wrapper-btn > .column-btn {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.column-wrapper-btn > .column-btn > .middle1 {
+    background-color: rgb(63, 223, 63);
+    color: black;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    border: 1px;
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 2px;
+    outline: none;
+}
+
+.column-wrapper-btn > .column-btn > .middle2 {
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 10px 30px;
+    border-radius: 2px;
+    border: 1px ;
+    outline: none;
+    font-weight: bold;  
+}
